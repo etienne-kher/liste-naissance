@@ -1,0 +1,14 @@
+table{
+	margin: auto;
+	text-align: center;
+	background-color: pink;
+	border-style: solid;
+border-color: black;
+border-width: 5px;
+}
+
+
+.prod{font-size:30px;}
+.cat{font-size: 20px;}
+.des{font-size: 20px;}
+img{width: 200px;}
