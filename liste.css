@@ -6,9 +6,21 @@ table{
 border-color: black;
 border-width: 5px;
 }
-
-
+th{font-size:30px;}
 .prod{font-size:30px;}
-.cat{font-size: 20px;}
+.cat{font-size: 20px; width: 20%;}
 .des{font-size: 20px;}
-img{width: 200px;}
+img{width: 150px;}
+
+div{
+	width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    margin: auto;
+}
+.ach{background: green;}
+.sel{background: yellow;}
+.urg{background: red;}
+.nor{background:orange;}
+
+li{display: inline-flex;}
