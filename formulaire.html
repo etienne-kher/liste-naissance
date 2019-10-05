@@ -1,9 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="liste.css">
+	<title>Formulaire</title>
 </head>
 <body>
+	<header id="titre">Rajouter un article</header>
+	<form method="post" action="***********.php">
+		<label for="f-prod">Nom de l'article :</label><input id="f-prod" type="text" name="nomArt" placeholder="Article" autofocus required>
+		<br>
+	<!-- catégorie,image, description     !-->
+		<label for="f-cat">Catégorie :</label>
+		<br>
+		<article  id="debArt">
+		
+			<input id="f-cat" type="radio" name="catArt" value="ali"  required>Alimentaire<br><input id="f-cat" type="radio" name="catArt" value="sec"  required> Sécurté<br><input id="f-cat" type="radio" name="catArt" value="pro"  required> Propreté
+		
+		</article>
+		<article>
+		<input id="f-cat" type="radio" name="catArt" value="det"  required> Détente <br>
+		<input id="f-cat" type="radio" name="catArt" value="tra"  required>Transport<br>
+		<input id="f-cat" type="radio" name="catArt" value="vet"  required> Vétement<br>
+		</article>
+		<label>Image :</label><input id="uplImg" type="file" accept="image/*">
+		<br>
+		<label for="texte">Déscription  :</label>
+		<br>
+		<textarea rows="4" cols="50" id="texte" name="text" placeholder="Mon texte" ></textarea>
+		<br>
+		<label for="url">Lien vers le produit :</label>
+		<br>
+		<input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30" required>
+		<br>
+		<input id="env" type="submit" value="Ajouter">
 
+
+	</form>
+<footer>
+	Copyright 2019 Liste de naissance | By Etienne Kher
+</footer>
 </body>
 </html>

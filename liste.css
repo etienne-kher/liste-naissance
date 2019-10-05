@@ -1,10 +1,12 @@
 body{
 	background: linear-gradient(153deg, rgba(198,228,228,1) 0%, rgba(228,173,228,1) 19%, rgba(128,209,208,0.9576563901927959) 42%, rgba(196,96,193,0.9436507879518995) 58%, rgba(224,211,222,1) 100%); 
 	background-attachment: fixed;
+	margin: 0;
 }
 #titre{
 	text-align: center;
 	font-family: 'Indie Flower', cursive;
+	font-size: 50px;
 }
 
 table{
@@ -55,6 +57,8 @@ section{
 	border-style: solid;
 	padding: 1%;
 	background-color: #fff1f5;
+	border-width: 1px;
+	border-radius: 5px;
 }
 .nsoul{
 	text-decoration: none ;}
@@ -70,6 +74,24 @@ div{
 	position: relative;
 
   }
+
+@keyframes col {
+  0%   { background-color: #ffc0cb; }
+  50%{background-color:#8ad1d2;}
+  100% {background: #ffc0cb;}
+}
+
+#new:hover #img-link{
+	border-radius: 80px;
+	animation: col 2s infinite;
+}
+#new:hover #hid{
+	text-align: center;
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+}
+#hid{display: none;}
 .ach{background: #a3f9a3e3;}
 .sel{background: #5cebded6;}
 .urg{background: #ef7c7c;}
@@ -105,4 +127,42 @@ figcaption{
 	position: absolute;
 	top: 2930px;
 	left: 70px;
+}
+footer{
+	text-align: center;
+	margin-top: 10px;
+	background-color: #ffa1dc66;
+}
+
+/*form*/
+form{
+	background-color: red;
+	font-family: 'Indie Flower', cursive;
+	width: 36%;
+	margin: auto;
+}
+label{
+	font-size: 30px;
+	margin-left: 5%;
+}
+input{
+	font-family: 'Indie Flower', cursive;
+}
+#debArt{
+	float: left;
+	margin-left: 5%;
+}
+#f-prod{
+	margin-left: 2%;
+	font-size: 20px;
+}
+#uplImg{
+	margin-left: 2%;
+}
+#texte ,#url{
+	margin-left: 5%;
+}
+#env{
+	display: block;
+	margin: auto;
 }
