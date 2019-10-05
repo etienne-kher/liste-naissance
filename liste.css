@@ -132,6 +132,7 @@ footer{
 	text-align: center;
 	margin-top: 10px;
 	background-color: #ffa1dc66;
+
 }
 
 /*form*/
@@ -140,6 +141,10 @@ form{
 	font-family: 'Indie Flower', cursive;
 	width: 36%;
 	margin: auto;
+	background-color: pink;
+	border-radius: 15px;
+	box-shadow: 3px 3px 6px black;
+
 }
 label{
 	font-size: 30px;
@@ -161,8 +166,30 @@ input{
 }
 #texte ,#url{
 	margin-left: 5%;
+	width: 89%;
 }
 #env{
 	display: block;
-	margin: auto;
+	margin: 1%  auto;
+	font-size: 20px;
+}
+#foot{
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+}
+#f-imgu{
+position: absolute;
+top: 350px;
+left: 130px;
+}
+#f-imgd{
+	position: absolute;
+	top: 40px;
+left: 1000px;
+}
+#retour{
+	position: absolute;
+	top: 40px;
+	left: 130px;
 }
